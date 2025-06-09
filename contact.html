@@ -20,7 +20,8 @@
   <p>The Smart Store is located in the Reno Experience District just steps away from the Cinemark movie theater.</p>
   <p>Address: 2060 Experience Ave, Reno, NV 89502.</p>
 
-  <form>
+   <section>
+    <form id="contactForm">
       <label for="name">Name:</label><br />
       <input type="text" id="name" name="name" required><br /><br />
 
@@ -33,6 +34,13 @@
       <button type="submit">Send Message</button>
     </form>
   </section>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // prevents page reload
+      alert("Thank you for reaching out to the Smart Store! We'll get back to you soon.");
+    });
+  </script>
 
 </body>
 </html>
