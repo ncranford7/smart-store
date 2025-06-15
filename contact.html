@@ -37,8 +37,9 @@
 
   <script>
     document.getElementById("contactForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // prevents page reload
-      alert("Thank you for reaching out to the Smart Store! We'll get back to you soon.");
+      event.preventDefault(); // Stop form from actually submitting
+      // Redirect user to thank you page
+      window.location.href = "thankyou.html";
     });
   </script>
 
