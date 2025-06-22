@@ -18,7 +18,7 @@ body {
 /* navigation bar */
 nav {
    background-color: #5c3a1e; /* wood brown */
-   padding: 15px;
+   padding: 25px;
    text-align: center;
 }
 
@@ -30,13 +30,13 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 30px;
 }
 
 nav a {
    color: #e38930; /* warm orange */
    text-decoration: none;
-   margin: 0 15px;
+   margin: 0 30px;
    font-weight: bold;
 }
 
@@ -160,3 +160,62 @@ button:hover {
     max-width: 100%;
   }
 }
+
+/* Banner image control */
+#banner {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: #5c3a1e;
+}
+
+#banner img {
+  width: 100%;
+  max-height: 420px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* === Home Section Styling === */
+.home h2 {
+  font-size: 34px;
+  color: #2b1c11;
+  margin-bottom: 15px;
+}
+
+.home p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #2b1c11;
+}
+
+nav ul li a {
+  font-size: 25px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* === About Section === */
+.about h2 {
+  font-size: 34px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #2b1c11;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #2b1c11;
+}
+
+/* === Contact Page Info Section === */
+.contact-info {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #2b1c11;
+  margin-bottom: 20px;
+}
+
